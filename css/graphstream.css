@@ -1,0 +1,80 @@
+graph {
+	
+	/* fill-color: red; */
+	
+	/*
+	fill-mode: gradient-radial;
+	fill-mode: gradient-horizontal;
+	fill-mode: gradient-vertical;
+	fill-mode: gradient-diagonal1;
+	fill-mode: gradient-diagonal2;
+	*/
+	/* fill-mode: image-tiled; */
+	/* fill-color: white, black; */
+	/* fill-image: url('C:\Users\Marcelo Vidigal\Dropbox\Projetos\gaeco\img\smile.png'); */
+	/* fill-image: url('C:\Projetos\gaeco\img\smile.png'); */
+		
+}
+
+/*
+node {
+	size: 10px, 15px;
+	shape: box;
+	fill-color: green;
+	stroke-mode: plain;
+	stroke-color: yellow;
+}
+
+node:clicked {
+	fill-color: red;
+}
+
+node.foo {
+	fill-color: blue;
+}
+*/
+
+/* node#A { fill-color: red; }				 no A vermelho */
+
+node#A {
+	shape: box;
+	size: 15px, 20px;
+	fill-mode: plain;	/* padrao			*/
+	fill-color: red;	/* padrao e preto	*/
+	stroke-mode: plain;	/* padrao e nenhum	*/
+	stroke-color: blue;	/* padrao e preto	*/
+}
+
+/* node#B { fill-color: #F00; }				 no B vermelho */ 
+/* node#C { fill-color: #FF0000; }			 no C vermelho */
+/* node#D { fill-color: #FFFF00000000; }	*/
+/* node#E { fill-color: rgb(255, 0, 0); }	 no D vermelho */
+
+/* node#F { fill-color: rgba(255, 0, 0, 128); }	 vermelho semi transparente		*/
+/* node#G { fill-color: #F008; }				 ainda vermelho semi transparente	*/
+/* node#H { fill-color: #FF000088; }			 ainda vermelho semi transparente	*/
+/* node#I { fill-color: #FFFF000000008888; }	*/
+
+/*
+node.fillmode {
+	size: 25px, 25px;
+	shape: circle;
+	
+	 fill-mode: plain;
+	
+	fill-mode: dyn-plain;
+	fill-color: red, green;
+	
+	fill-mode: gradient-radial;
+	fill-color: black, white;
+	
+	fill-mode: gradient-horizontal;
+	fill-mode: gradient-vertical;
+	fill-color: yellow, red;
+	
+	fill-mode: gradient-diagonal1;
+	
+	fill-mode: gradient-diagonal2;
+	fill-color: green, black;
+}
+*/
