@@ -1,0 +1,39 @@
+node {	
+	size: 1px;
+	fill-color: #777;
+	text-mode: hidden;
+	z-index: 0;
+}
+
+edge {
+	shape: line;
+	arrow-size: 3px, 2px;
+	fill-mode: dyn-plain;
+	fill-color: #222, #555, green, yellow;
+}
+
+edge.estrada {
+	size: 2px;
+	stroke-color: red;
+	stroke-width: 1px;
+	stroke-mode: plain;
+}
+
+edge.tunel {
+	stroke-color: blue;
+	stroke-width: 1px;
+	stroke-mode: plain;
+}
+
+edge.ponte {
+	stroke-color: yellow;
+	stroke-width: 1px;
+	stroke-mode: plain;
+}
+
+sprite {
+	shape: box;
+	size: 32px, 52px;
+	fill-mode: image-scaled;
+	fill-image: url('C:\Users\Marcelo Vidigal\Dropbox\Projetos\Treinamento\GraphStream\img\mapPinSmall.png');
+}
